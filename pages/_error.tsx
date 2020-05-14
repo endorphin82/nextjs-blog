@@ -1,6 +1,6 @@
 import CustomError from "../components/CustomError"
 
-function Error({ statusCode }) {
+function Error({ statusCode }: { statusCode: number }) {
   return (
     <p>
       {statusCode
